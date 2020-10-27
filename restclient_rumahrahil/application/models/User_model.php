@@ -9,7 +9,7 @@ class User_model extends CI_model
     {
         parent::__construct();
         $this->_client = new Client([
-            'base_uri' => 'http://localhost/rumahrahil_restful/restserver_rumahrahil/api/Admin_api/'
+            'base_uri' => 'http://localhost/Test_Rahil/restserver_rumahrahil/api/Admin_api/'
         ]);
     }
     public function getAllUser()
